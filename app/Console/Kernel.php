@@ -24,7 +24,7 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('data:kawalpemilu')->everyMinute()->timezone('Asia/Jakarta');
+        $schedule->command('data:kawalpemilu')->everyThirtyMinutes()->timezone('Asia/Jakarta');
     }
 
     /**
