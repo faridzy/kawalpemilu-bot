@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1f8f75d-b110-450b-8393-197cebdfc0a8" name="Default" comment="" />
+    <list default="true" id="f1f8f75d-b110-450b-8393-197cebdfc0a8" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Helpers/TelegramBotHelper.php" afterPath="$PROJECT_DIR$/app/Helpers/TelegramBotHelper.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TelegramBotHelper.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TelegramBotHelper.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Helpers/TelegramBotHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="53" column="123" lean-forward="false" selection-start-line="53" selection-start-column="123" selection-end-line="53" selection-end-column="123" />
+            <state relative-caret-position="529">
+              <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
               <folding>
                 <element signature="e#6#86#0#PHP" expanded="true" />
               </folding>
@@ -46,7 +48,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -86,7 +88,7 @@
       <file leaf-file-name="Data.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Data/Data.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="-63">
               <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
                 <element signature="e#110#144#0#PHP" expanded="true" />
@@ -137,11 +139,11 @@
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/app/Adapter/Curl.php" />
         <option value="$PROJECT_DIR$/app/Data/Data.php" />
-        <option value="$PROJECT_DIR$/app/Helpers/TelegramBotHelper.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Console/Commands/DataKawalPemilu.php" />
         <option value="$PROJECT_DIR$/app/Console/Kernel.php" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/app/Helpers/TelegramBotHelper.php" />
       </list>
     </option>
   </component>
@@ -358,12 +360,12 @@
       <updated>1555750192313</updated>
       <workItem from="1555750193713" duration="6276000" />
       <workItem from="1555772598070" duration="47000" />
-      <workItem from="1555772954554" duration="1611000" />
+      <workItem from="1555772954554" duration="2105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7934000" />
+    <option name="totallyTimeSpent" value="8428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -613,26 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Data/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-          <folding>
-            <element signature="e#110#144#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Helpers/TelegramBotHelper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="53" column="123" lean-forward="false" selection-start-line="53" selection-start-column="123" selection-end-line="53" selection-end-column="123" />
-          <folding>
-            <element signature="e#6#86#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Console/Commands/DataKawalPemilu.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -659,6 +641,26 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Data/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#110#144#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Helpers/TelegramBotHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="58" column="32" lean-forward="false" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

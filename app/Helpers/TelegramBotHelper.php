@@ -56,6 +56,7 @@ class TelegramBotHelper
         $notifMessage .="Total Suara Tidak Sah :".number_format($total['total_tSah'],0)."\n";
         $notifMessage .="TPS di Proses : ".$total['tps_proses']."\n";
         $notifMessage .="Total TPS : ".$total['total_tps']."\n";
+        $notifMessage .="Note : Prosentase lebih dari 100% karena ada data jumlah suara sah dari kedua paslon di beberapa daerah tidak sama dengan total suara sah didaerah tersebut"."\n";
         $notifMessage .="Data dari kawalpemilu.org";
         //dd($notifMessage);
         try{
